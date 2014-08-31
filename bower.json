@@ -1,0 +1,25 @@
+{
+  "name": "angular-konami",
+  "version": "0.0.1",
+  "authors": [
+    "Lucas Constantino <lucasconstantinosilva@gmail.com>"
+  ],
+  "description": "A Konami Code directive for Angular application",
+  "main": "angular-konami.js",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "konami",
+    "konami",
+    "code",
+    "cheat"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
