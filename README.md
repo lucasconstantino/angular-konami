@@ -3,6 +3,8 @@ Angular Konami Code
 
 > A [Konami Code](http://pt.wikipedia.org/wiki/C%C3%B3digo_Konami) directive to help Angular applcations do amazing stuff to surprise their users!
 
+![](http://www.itecportal.com/wp-content/uploads/2013/09/the_code_by_decibel_design-d4c34gt.jpg)
+
 ## Install
 
 As this component is composed of an angular module which contains a directive, to install it you should use whatever package manager you prefer, import *angular-konami.js* to your HTML, and include **konami** as a dependency to your main Angular module.
@@ -26,6 +28,8 @@ You can also use this directive with custom activating keys. To do that, simply 
 ```
 <hero konami-code="hadouken()" konami-keys="[40, 39, 65]"></hero>
 ```
+
+![](http://i598.photobucket.com/albums/tt68/xXONEXx/Decorated%20images/hadouken.png)
 
 ## License
 
