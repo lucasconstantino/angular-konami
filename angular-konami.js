@@ -29,7 +29,7 @@ angular.module('konami', [])
         function activated() {
           if ('konamiOnce' in attr) stopListening();
           // Execute expression.
-          scope.$eval(attr.konami);
+          scope.$eval(attr.konamiCode);
         }
 
         /**
