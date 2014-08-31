@@ -5,20 +5,20 @@
  */
 
 angular.module('konami', [])
-  .directive('konami', ['$document', function($document) {
+  .directive('konamiCode', ['$document', function($document) {
     var konamiKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
     return {
       restrict: 'A',
       link: function(scope, element, attr) {
 
-        if (!attr.konami) {
+        if (!attr.konamiCode) {
           throw('Konami directive must receive an expression as value.');
         }
 
         // Let user define a custom code.
-        if (attr.konamiCode) {
-          var konamiKeys = scope.$eval(attr.konamiCode);
+        if (attr.konamiKeys) {
+          var konamiKeys = scope.$eval(attr.konamiKeys);
         }
 
         var keyIndex = 0;
