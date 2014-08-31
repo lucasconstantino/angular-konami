@@ -1,7 +1,7 @@
 Angular Konami Code
 ===================
 
-> A [Konami Code](http://pt.wikipedia.org/wiki/C%C3%B3digo_Konami) directive to help Angular do amazing stuff to surprise their users!
+> A [Konami Code](http://pt.wikipedia.org/wiki/C%C3%B3digo_Konami) directive to help Angular applcations do amazing stuff to surprise their users!
 
 ## Install
 
@@ -21,10 +21,10 @@ Add the directive *konami* as an attribute to any DOM element you have. The attr
 
 ### Custom keys
 
-You can also use this directive with custom activating keys. To do that, simply another attribute to the element called *konami-keys*, passing an array of key codes as it's values. Example:
+You can also use this directive with custom activating keys. To do that, simply add another attribute to the element called *konami-keys*, passing an array of key codes as it's value. Example:
 
 ```
-<hero konami-code="somersault()" konami-keys="[37, 40, 39, 38]"></hero>
+<hero konami-code="hadouken()" konami-keys="[40, 39, 65]"></hero>
 ```
 
 ## License
