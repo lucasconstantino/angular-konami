@@ -18,7 +18,7 @@ angular.module('konami', [])
 
         // Let user define a custom code.
         if (attr.konamiKeys) {
-          var konamiKeys = scope.$eval(attr.konamiKeys);
+          konamiKeys = scope.$eval(attr.konamiKeys);
         }
 
         var keyIndex = 0;
@@ -44,7 +44,7 @@ angular.module('konami', [])
           } else {
             keyIndex = 0;
           }
-        };
+        }
 
         /**
          * Stop to listen typing.
