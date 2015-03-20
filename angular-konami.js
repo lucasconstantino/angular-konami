@@ -6,7 +6,7 @@
 
 angular.module('konami', [])
   .directive('konamiCode', ['$document', function($document) {
-    var konamiKeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+    var konamiKeysDefault = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
     return {
       restrict: 'A',
@@ -17,10 +17,7 @@ angular.module('konami', [])
         }
 
         // Let user define a custom code.
-        if (attr.konamiKeys) {
-          konamiKeys = scope.$eval(attr.konamiKeys);
-        }
-
+        var konamiKeys = attr.konamiKeys || konamiKeysDefault;
         var keyIndex = 0;
 
         /**
