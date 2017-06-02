@@ -10,6 +10,9 @@ angular.module('konami', [])
 
     return {
       restrict: 'A',
+      scope:{
+        konamiKeys: '='
+      },
       link: function(scope, element, attr) {
 
         if (!attr.konamiCode) {
@@ -17,7 +20,7 @@ angular.module('konami', [])
         }
 
         // Let user define a custom code.
-        var konamiKeys = attr.konamiKeys || konamiKeysDefault;
+        var konamiKeys = konamiKeys || konamiKeysDefault;
         var keyIndex = 0;
 
         /**
