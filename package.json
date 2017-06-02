@@ -1,0 +1,28 @@
+{
+    "name": "angular-konami",
+    "version": "0.0.2",
+    "description": "A Konami Code directive for Angular applications",
+    "main": "angular-konami.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lucasconstantino/angular-konami.git"
+    },
+    "keywords": [
+        "angularjs",
+        "angular",
+        "konami",
+        "code",
+        "cheat",
+        "easteregg",
+        "upupdowndownleftright"
+    ],
+    "author": "Lucas Constantino",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lucasconstantino/angular-konami/issues"
+    },
+    "homepage": "https://github.com/lucasconstantino/angular-konami#readme"
+}
