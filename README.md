@@ -1,6 +1,8 @@
 Angular Konami Code
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lucasconstantino/angular-konami.svg)](https://greenkeeper.io/)
+
 > A [Konami Code](http://pt.wikipedia.org/wiki/C%C3%B3digo_Konami) directive to help Angular applcations do amazing stuff to surprise their users!
 
 ![](http://www.itecportal.com/wp-content/uploads/2013/09/the_code_by_decibel_design-d4c34gt.jpg)
